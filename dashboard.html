@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+    <script src="assets/js/script.js"></script>
+
     <div class="head">
         The Bulletin Board
     </div>
@@ -22,8 +24,43 @@
     </div>
 
     <div class="textarea">
-        <textarea placeholder="Make a post..."></textarea> <br/>
-        <button style="float: right; font-size: 1em;"> Post </button>
+        <textarea id="textarea1" placeholder="Make a post..."></textarea> <br/>
+        <button onclick="post()" style="float: right; font-size: 1em;"> Post </button>
+    </div>
+
+    <div class="posts">
+        <div class="post">
+            <div class="user">
+                Username123
+            </div> <br/>
+            Here is an example of a post - I have locally grown eggs! Message me for details!
+        </div>
+
+        <div class="post">
+            <div class="user">
+                JoeSmith
+            </div> <br/>
+            I hope you're all enjoying this beautiful day!
+        </div>
+
+        <div class="post">
+            <div class="user">
+                TreeFan
+            </div> <br/>
+            I heard the local shop restocked toilet paper, grab some while you can
+        </div>
+
+        <div class="post">
+            <div class="user">
+                Tutor
+            </div> <br/>
+            Any of your children need a tutor? Message me - I specialize in the sciences and math :)
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Lindsey Olson - 2020
     </div>
 
 </body>
