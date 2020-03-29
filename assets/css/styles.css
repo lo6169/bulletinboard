@@ -160,3 +160,9 @@ textarea
     padding: 2%;
     margin-top: 5%;
 }
+
+.inputinfo
+{
+    text-align: center;
+    line-height: 200%;
+}
